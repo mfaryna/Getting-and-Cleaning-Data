@@ -1,29 +1,11 @@
-Getting-and-Cleaning-Data
-=========================
+The script run_analysis.R follows the instructions given:
+---------------------------------------------------------
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names. 
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-To obtain the tidy data set the following steps were taken:
+The result is the file "tidy_data.txt".
 
-1. Loading data 
-Data sets were loaded into R (they must be in your working directory!).
-
-2. Merging data
-Merging train and test sets into one data sets (for now as three different variables).
-
-3. Labeling data
-Naming activities in a human way.
-
-4. Removing unneccessary variables
-Making some memory free.
-
-5. Computing mean and sd for each measurment
-For each measurement mean and standard deviation were computed. Each of them as separate list.
-Then they were unlisted and binded to one variable measure.
-
-6. Final merging data
-Data about subjects, activities and their mean and sd were bined into one variable.
-
-7. Summarizing data
-Computing mean and sd of the measurments for each subject and each activity.
-
-8. Creating text file to submit.
-
+For further details please refer to CodeBook.md
